@@ -1,0 +1,299 @@
+/*common css start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+
+}
+/*common css end*/
+
+/*header start*/
+header{}
+
+.h_wrapper{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 80%;
+}
+
+.wrapper {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 65%;
+	/*border: 1px solid blue;*/
+}
+
+.logo {
+	float: left;
+	width: 20%;
+	/*border: 1px solid black;*/
+}
+.logo img{
+	width: 100%;
+}
+
+.menu {
+	margin-top: 8px;
+	float: right;
+	width:75% ;
+	/*border: 1px solid black;*/
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	margin: 0 10px;
+	text-decoration: none;
+	display: inline-block;
+	color: #000000;
+}
+.menu ul li:last-child a {
+	margin-right: 0;
+}
+.menu ul li:first-child a{
+color: #CA7D8D;
+}
+
+/*header end*/
+
+/*Notary Banner Start*/
+.bck-image{
+	height:450px ;
+	background-image: url(../images/notary.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	/*border: 1px solid black;*/
+}
+.n-wrapper{}
+.n-text{}
+.h1-notarized{
+	font-size: 38px;
+	color: #616161;
+	margin: 0 0 0 63px;
+    padding: 106px;
+	/*border: 1px solid darkred;*/
+}
+.p-notarized{
+	color:#616161;
+	margin: -86px 0 0 165px;
+	/*border: 1px solid black;*/
+}
+.b-notarized{
+	background-color:#B9253F;
+	border-radius: 4px;
+	color: white;
+	font-size: 15px;
+	margin: 25px 0 0 165px;
+	padding: 9px 16px;
+	/*border: 1px solid black;*/
+}
+/*Notary Banner End*/
+
+/*how it works star*/
+.h-works{
+	margin: 25px 0;
+}
+.h-wrapper{}
+.h-h2{
+	margin: 30px;
+	text-align: center;
+	color:#616161;
+}
+.h-text{
+	/*margin-top: -45px;*/
+	text-align: center;
+	color:#616161;
+	font-size:16px;
+	line-height: 25px;
+}
+.s-1{
+	width: 26.2%;
+    /*border: 1px solid black;*/
+    padding: 60px 2.1%;
+    float: left;
+    margin-right: 3%;
+}
+.s-1:last-child{
+margin-right: 0;
+}
+
+.s-img1{
+	margin: 0 65px;
+}
+.s_text{
+	text-align: center;
+}
+/*how it works end*/
+
+/*Learn Start*/
+.n-learn{
+	padding: 50px 0;
+	background-color: #FAFAFA;
+	background-size: cover;
+}
+.l-text{
+	margin: 0 0 0 28px;
+}
+.i-p{
+	font-size: 13px;
+    line-height: 14px;
+    color:#616161;
+}
+.l-h2{
+	font-size: 16px;
+    line-height: 21px;
+    color:#616161;
+}
+.l-button{
+	background-color:#B9253F;
+	border-radius: 4px;
+	color: white;
+	font-size: 14px;
+	padding: 4px 11px;
+	/*margin: 25px 0 0 165px;*/
+}
+.l-video{
+	float: right;
+	margin: -152px 0 0 0;
+}
+/*Learn End*/
+
+/* Feature start*/
+.n-feature{}
+.f-text{
+	text-align: center;
+}
+.f-h2{
+	font-size: 23px;
+	text-align: center;
+	color:#616161;
+	color: black;
+}
+.f-p{
+	font-size: 15px;
+	text-align: center;
+	color:#616161;
+}
+.s-feature{
+	width: 29%;
+	float: left;
+	/*border: 1px solid red;*/
+	padding: 45px 10px;
+	margin: 0 13px;
+	box-shadow: 2px 2px 2px 2px;
+	color: #F1F3F4;
+}
+.f-h3{
+	font-size: 12px;
+	text-align: center;
+	color:black;
+}
+.f_text{
+	font-size: 8px;
+	text-align: center;
+	color:black;
+}
+
+/*.s-feature1{
+	width: 30%;
+	float: left;
+	margin: 0 20px;
+	box-shadow: 2px 2px 2px 2px;
+	color: #F1F3F4;}*/
+
+.f-button{
+	margin: 60px;
+    padding: 8px 16px;
+    color: red;
+    background-color: #FFF;
+    border-radius: 4px;
+}
+/*Feature end*/
+
+/*Contact Start*/
+
+.n_contact{
+	padding: 100px 0;
+	background-color: #090909;
+	overflow: hidden;
+}
+.content{
+	float: left;
+	width: 30%;
+	/*border: 1px solid green;*/
+	margin: 0 35px;
+}
+.c_h2{
+	color: red;
+	text-transform: uppercase;
+}
+.content ul{
+	margin: 0 -40px;
+}
+.content ul li{
+	float: left;
+    list-style: none;
+}
+.content ul li a{
+	margin: 0 4px;
+}
+
+.content ul li:first-child a{
+	margin-left: 0;
+}
+
+.link{
+	float: left;
+	width: 30%;
+	/*border: 1px solid green;*/
+}
+.link ul{}
+.link ul li{
+	color:#555F6B;
+	list-style:square;
+}
+.link ul li:first-child{
+	color:red;
+}
+
+.newsletter{
+	width: 30%;
+	float: left;
+	/*border: 1px solid pink;*/
+
+}
+
+.newsletter form{}
+.newsletter input{
+	padding: 8px 0;
+	border-radius: 3px;
+}
+.n_button{
+	margin: 0 -8px;
+	padding: 8px 35px;
+	padding-bottom: 9px;
+	background-color: red;
+	border-radius: 3px;
+}
+.cmn_textclr{
+	color: #555F6B;
+}
+
+/*Contact End*/
+
+/*footer start*/
+.footer{
+	padding:15px 0 ;
+	background-color:#535D69;
+}
+.footer-text{
+	text-align: center;
+	color: white;
+}
+
+
+/*footer end*/
